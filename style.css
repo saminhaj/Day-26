@@ -1,0 +1,137 @@
+.header{
+    background: #2980b9;
+}
+.header img{
+    width: 160px;
+    height: auto;
+    padding: 10px 0;
+}
+.header-right{}
+.header-right ul{
+    margin-bottom: 0;
+}
+.header-right ul li{
+    display: inline-block;
+   border-right: 1px solid #ddd;
+   margin-left: -4px;
+}
+.header-right ul li a{
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    padding :0 20px;
+    display: block;
+    line-height: 75px;
+   
+}
+.header-right ul li a:hover{
+    background: #3742fa;
+}
+/*bannner*/
+
+.banner{
+    background: url(./img/photo_slideshow.jpg)no-repeat center;
+    background-size: cover;
+    padding: 150px;
+    background-attachment: fixed;
+}
+.banner-item{}
+.banner-item h2{
+    background: #dfe4ea;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.banner-item h1{
+    background: #ced6e0;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* about*/
+ 
+.about{
+    background: #bdc3c7;
+
+}
+.about h2{}
+.about p{
+    width: 700px;
+    margin: auto;
+}
+/*logo */
+
+.logo{}
+.logo-item{
+    border: 1px solid #ddd;
+    padding: 20px 10px;
+    margin-top: 30px;
+    background: #f7f7f7;
+    border-radius: 5px;
+}
+.logo-item span{
+    width: 80px;
+    height: 80px;
+    background: #34ace0;
+    display: inline-block;
+    font-size: 50px;
+    color: #fff;
+    border-radius: 20px 5px 20px 5px;
+}
+.logo-item h2{
+    padding-top: 10px;
+}
+.logo-item p{}
+/*service*/
+
+.service{
+
+}
+.service img{
+    max-width: 100%;
+}
+.logo-right{}
+.logo-right h2{
+    border-bottom: 1px solid #ddd;
+    margin-bottom:  20px;
+}
+.logo-right ul{
+    padding-left: 0;
+}
+.logo-right ul li{
+    list-style: none;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #f7f7f7;
+}
+.logo-right ul li a{
+
+}
+/*footer */
+
+.footer{
+    background: #34495e;
+}
+.footer p{
+    color: #fff;
+    font-size: 20px;
+}
+.footer ul{
+    margin-bottom: 0;
+}
+.footer ul li{
+    display: inline-block;
+
+}
+.footer ul li a{
+    padding: 0 30px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 40px;
+    
+}
+.footer ul li a:hover{}
